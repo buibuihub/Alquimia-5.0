@@ -259,7 +259,7 @@ app.post("/session/:id/clear", (req, res) => {
 
 // ─── Catch-all → index.html ───────────────────────────────
 app.use((req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "", "index.html"));
 });
 
 // ─── Start ────────────────────────────────────────────────
